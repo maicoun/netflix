@@ -1,0 +1,98 @@
+/* Estilos básicos */
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #000;
+    padding: 20px 0;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.logo {
+    color: #fff;
+    font-size: 24px;
+}
+
+nav ul {
+    list-style-type: none;
+    display: flex;
+}
+
+nav ul li {
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+main {
+    max-width: 1200px;
+    margin: 20px auto;
+    padding: 0 20px;
+}
+
+.destaque {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.destaque h1 {
+    font-size: 36px;
+}
+
+.destaque p {
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+.destaque button {
+    background-color: red;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    margin-right: 10px;
+    cursor: pointer;
+}
+
+.categorias {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    grid-gap: 20px;
+}
+
+.categoria {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 20px;
+}
+
+.categoria h2 {
+    margin-bottom: 10px;
+}
+
+.filmes {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.filme {
+    background-color: #f9f9f9;
+    padding: 10px;
+    margin: 5px;
+    border-radius: 5px;
+}
